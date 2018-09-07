@@ -5,6 +5,8 @@ title: KeyboardAvoidingView
 
 It is a component to solve the common problem of views that need to move out of the way of the virtual keyboard. It can automatically adjust either its position or bottom padding based on the position of the keyboard.
 
+Sometimes if its not working in android, change android:windowSoftInputMode:"adjustResize" into android:windowSoftInputMode:"adjustPan" at AndroidManifest.xml file
+
 Example usage:
 
 ```
